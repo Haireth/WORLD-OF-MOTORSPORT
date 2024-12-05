@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta ch  arset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation bar + front page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body style="background: linear-gradient(0deg, #030303 0%, #030303 100%);">
+    <div>
+      <header>
+        <div class="logo">PINNACLE RACING TEAM</div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li>
+              <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#Motor">Motor</a>
+            </li>
+            <li>
+              <a href="#Qualifying">Qualifying</a>
+            </li>
+            <li>
+              <a href="/sources/about-us.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+          navbar = document.querySelector(".nav-bar");
+          navbar.classList.toggle("active");
+        }
+      </script>
+    </div>
+
+  <section style="overflow: hidden;">
+        </div>
+      <div class="background">
+        <div class="LAST">
+          <video style="width:fit-content; height: fit-content; overflow: hidden" autoplay loop muted plays-inline class="video">
+        <source src="layout(1) (1).mp4" type="video/mp4" />
+        </video>
+        </div>
+        <div class="content">
+          <h1>WORLD OF <br />MOTOR-SPORT</h1>
+          <p class="under">"Born to Race, Built to Win."</p>
+          <p class="description">
+            Welcome to the ultimate destination for everything GP motorsport,
+            where speed, innovation, and the thrill of racing take center stage!
+          </p>
+          <p class="button"> <a href="#MORE">MORE</a></p>
+        </div>
+      </div>
+  </section>
+      <section>
+        <div id="MORE" class="container_5">
+        <div class="title"><h2>WHAT IS MOTORSPORT</h2></div>
+      </div>
+      <div class="container_6">
+        <div class="card">
+          <img src="Aerodynamics.jpg">
+          <div class="card-content">
+            <h3>Aerodynamics</h3>
+            <p>Advanced bodywork and winglets optimize airflow, enhancing stability and top speed on straights and corners.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Telemetry.png">
+          <div class="card-content">
+            <h3>Telemetry</h3>
+            <p>Real-time data collection provides crucial insights into performance metrics, helping teams fine-tune the bike's setup.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Execution.png">
+          <div class="card-content">
+            <h3>Execution</h3>
+            <p>Riders must flawlessly apply their skills, managing speed, braking, and cornering under immense pressure during the race.</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <section>
+        <div class="half-background">
+          <div class="video-part">
+           <video style="width:fit-content; height: fit-content;" autoplay loop muted plays-inline class="video"> <source src="for the layout  (1).mp4" >
+           </video>
+          </div>
+          <div class="second-title">
+            <h1>QUALIFYING</h1>
+            <P>MotoGP's qualifying system features two 15-minute sessions (Q1 and Q2), where the fastest riders from practice and Q1 determine the starting grid, with Q2 deciding the top 12 positions.</P>
+            <p class="button_2" ><a href="">Learn More</a></p>
+          </div>
+        </div>
+        <div class="qualify">
+
+          <div class="container_7">
+            <div class="box"><h2>QUALIFYING RACE (AFTERNOON)</h2>
+              <p>60-minute timed	practice session. this will also decide the qualifying session that the riders will be in.</p>
+            <img src="bracket_1.jpg" id="bracket_1">
+          </div>
+            <div class=" box" style="background: #ededed;"><h2>FRIDAY (MORNING)</h2>
+              <p>
+                45 minutes of open practice in the morning (to get the players to feel the road)
+              </p>
+            <img src="bracket_2.jpg" id="bracket_2"></div>
+            <div class="box" style="background: #ededed;" ><h2>Q1 Winners</h2>
+              <p>
+                Racers that are outside of the top 10
+              </p><img src="bracket_3.jpg" id="bracket_3"></div>
+            <div class="box" ><h2>Q2 Winners</h2> 
+              <p>
+                Top 10 Fastest riders from the Afternoon Race
+            </p>
+            <img src="bracket_4.jpg" id="bracket_4"></div>
+          </div>
+        </div>
+      </section>
+      
+  </div>  
+  </body>
+</html>
